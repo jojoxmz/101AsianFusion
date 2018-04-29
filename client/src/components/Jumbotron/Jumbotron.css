@@ -1,0 +1,35 @@
+.jumbotron {
+  height: 100vh;
+  margin-bottom: 0em;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 0;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  opacity: .4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+.jumbotron * {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron h1, .jumbotron h2 {
+  color: white;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  padding-top: 30vh;
+  margin-top: 0;
+}
