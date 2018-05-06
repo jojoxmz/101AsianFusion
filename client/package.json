@@ -4,11 +4,17 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
-    "react": "^16.0.0",
+    "axios": "^0.16.2",
+    "google-map-react": "^1.0.0",
+    "mdbootstrap": "^4.5.1",
+    "mdbreact": "^4.3.0",
+    "react": "^16.3.2",
+    "react-background-slideshow": "^1.0.3",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14",
+    "react-responsive-carousel": "^3.1.37",
+    "react-reveal-text": "^0.1.1",
     "react-router-dom": "^4.1.2",
-    "axios": "^0.16.2"
+    "react-scripts": "1.0.14"
   },
   "scripts": {
     "start": "react-scripts start",

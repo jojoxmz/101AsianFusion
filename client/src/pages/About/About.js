@@ -1,17 +1,37 @@
-import React from "react";
+import React, {Component} from "react";
 import Jumbotron from "../../components/Jumbotron";
-import Container from "../../components/Container";
-import Row from "../../components/Row";
-import Col from "../../components/Col";
+import CarouselPage from "../../components/Carousel";
 
-const About = () => (
-  <div>
-    <Jumbotron backgroundImage="../../assets/images/wok.jpg">
-      <h1>Welcome!</h1>
-      <h2>Established in 2016</h2>
-    </Jumbotron>
-    
-  </div>
-);
 
-export default About;
+import "./About.css";
+
+export default class About extends Component {
+
+  render() {
+    return (
+      <CarouselPage>
+
+      </CarouselPage>
+      
+)
+};
+};
+
+//
+// import React, {Component} from "react";
+// import Jumbotron from "../../components/Jumbotron";
+//
+// import "./About.css";
+//
+// export default class About extends Component {
+//
+//   render() {
+//     return (<div>
+//       <Jumbotron>
+//       <h1>Welcome!</h1>
+//       <h2>Established in 2016</h2>
+//       </Jumbotron>
+//       </div>
+// )
+// };
+// };

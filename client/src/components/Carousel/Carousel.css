@@ -1,0 +1,16 @@
+.img-container{
+  padding-top: calc(100vh);
+  background-size: cover;
+}
+
+/* .carousel-inner:first-child .img-container {
+  transform: scaleX(-1);
+} */
+
+h1, p{
+  text-shadow: 2px 2px black;
+}
+
+h1{
+  font-size: 60px;
+}

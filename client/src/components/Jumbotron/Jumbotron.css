@@ -1,13 +1,12 @@
-.jumbotron {
+ #jumbotronMain {
   height: 100vh;
   margin-bottom: 0em;
-  background-size: cover;
-  background-position: center;
+  background: none;
   position: relative;
   border-radius: 0;
 }
 
-.jumbotron::after {
+#jumbotronMain::after {
   content: "";
   display: block;
   opacity: .4;
@@ -16,20 +15,24 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: black;
+  background: none;
 }
 
-.jumbotron * {
+#jumbotronMain * {
   position: relative;
   z-index: 1;
 }
 
-.jumbotron h1, .jumbotron h2 {
+#jumbotronMain h1, #jumbotronMain h2 {
   color: white;
 }
 
-.jumbotron h1 {
+#jumbotronMain h1 {
   font-size: 60px;
   padding-top: 30vh;
   margin-top: 0;
+} */
+
+#jumbotron{
+  background: none;
 }

@@ -1,3 +1,23 @@
-.bg-dark {
-    background-color: rgba(0,0,0,.075)!important;
-  }
+.navbar {
+  background-color: rgba(255,255,255,.1);
+}
+
+#top-nav a,
+#top-nav a:hover {
+  color: white;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+  transition: color .35s;
+}
+
+#top-nav.top-nav-collapse a,
+#top-nav.top-nav-collapse a:hover {
+  color: white;
+}
+
+.navbar-brand{
+  font-weight: bolder;
+}
+
+.navbar.top-nav-collapse {
+  background-color: black;
+}

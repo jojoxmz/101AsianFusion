@@ -1,35 +1,72 @@
-import React from "react";
-import "./Nav.css";
+import React, {Component} from 'react';
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarNav,
+  NavbarToggler,
+  Collapse,
+  NavItem,
+  NavLink,
+  Dropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
+} from 'mdbreact';
+import {BrowserRouter as Router} from 'react-router-dom';
+import ("./Nav.css");
 
-const Nav = props => (<wrapper className="nav-wrapper">
-  <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a className="navbar-brand" href="/">101</a>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+
+class Nav extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      collapse: false,
+      isWideEnough: false,
+      dropdownOpen: false
+    };
+    this.onClick = this.onClick.bind(this);
+    this.toggle = this.toggle.bind(this);
+  }
+
+  onClick() {
+    this.setState({
+      collapse: !this.state.collapse
+    });
+  }
+
+  toggle() {
+    this.setState({
+      dropdownOpen: !this.state.dropdownOpen
+    });
+  }
+
+  render() {
+    return (<Router>
+      <nav id="top-nav" className="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top">
+    <a className="navbar-brand" href="/">101 Asian Fusion</a>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
     </button>
-
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-
-      <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li className="nav-item active">
-          <a className="nav-link" href="/about">About
-            <span className="sr-only">(current)</span>
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Menus</a>
-        </li>
-
-        <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
-        </li>
-
-        <li className="nav-item">
-          <a className="nav-link" href="#">Gallery</a>
-        </li>
-      </ul>
+    <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul className="navbar-nav justify-content-end">
+            <li className="nav-item">
+                <a className="nav-link" href="/about">About <span className="sr-only">(current)</span></a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="/menus">Menus</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="/contact">Contact</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="#">Gallery</a>
+            </li>
+        </ul>
     </div>
-  </nav>
-</wrapper>);
+</nav>
+    </Router>);
+  }
+}
 
 export default Nav;

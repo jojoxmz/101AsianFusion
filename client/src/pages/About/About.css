@@ -1,0 +1,17 @@
+.about-img {
+    height: auto;
+    width: 100%;
+}
+
+.carousel {
+  overflow: hidden;
+  /* max-height: calc(100vh - 80px); */
+  max-height: 100vh;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-img {
+    height: 100vh;
+    width: auto;
+  }
+}
