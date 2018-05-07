@@ -2,12 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-// import Gallery from "./pages/Gallery";
+import Gallery from "./pages/Gallery";
 import Menus from "./pages/Menus";
 import Manager from "./pages/Manager";
-
 import Nav from "./components/Nav";
-import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
 
 
@@ -21,6 +19,7 @@ const App = () => (
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/menus" component={Menus} />
         <Route exact path="/manager" component={Manager} />
+        <Route exact path="/gallery" component={Gallery} />
       <Footer />
     </div>
   </Router>

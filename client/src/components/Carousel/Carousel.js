@@ -1,15 +1,10 @@
 import React, {Component} from 'react';
 import {
   Carousel,
-  CarouselCaption,
-  CarouselControl,
   CarouselInner,
   CarouselItem,
-  CarouselIndicators,
-  CarouselIndicator,
   View,
-  Mask,
-  Container
+  Mask
 } from 'mdbreact';
 import ('./Carousel.css');
 
@@ -61,23 +56,20 @@ class CarouselPage extends Component {
 
             <Mask overlay="black-light"></Mask>
 
-            <div className="full-bg-img flex-center mask rgba-black-slight white-text">
+            <div className="full-bg-img flex-center mask rgba-blue-slight white-text">
               <ul className="animated fadeInUp col-md-5 col-sm-10 list-unstyled list-inline">
                 <li>
-                  <h1 className="font-weight-bold text-uppercase">Welcome</h1>
+                  <h1 className="font-weight-bold text-uppercase headline">Welcome</h1>
                 </li>
                 <li>
-                <p className="font-weight-light text-uppercase py-4">
-                  We are a family owned restaurant serving the Cherry Creek area since 2006,
-
-                  offering the classic Asian Fusion dishes you know and love, plus a few specials of our own.
-
-                  We pride ourselves on fresh food, great flavor, and affordable prices—and free delivery within a 3-miles radius!
-                </p>
+                  <p className="font-weight-light text-uppercase py-4 about-us">
+                    We are a family owned restaurant serving the Cherry Creek area since 2006, offering the classic Asian Fusion dishes you know and love, plus a few specials of our own. We pride ourselves on fresh food, great flavor, and affordable prices—and free delivery within a 3-miles radius!
+                  </p>
                 </li>
                 <li className="list-inline-item">
                   <a target="_blank" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-unique btn-lg btn-rounded mr-0 waves-effect waves-light">
-                  <i className="fa fa-cutlery prefix white-text"></i> Order</a>
+                    <i className="fa fa-cutlery prefix white-text"></i>
+                    Order</a>
                 </li>
               </ul>
             </div>
@@ -92,27 +84,23 @@ class CarouselPage extends Component {
               }}></div>
             <Mask overlay="black-light"></Mask>
 
-
-                        <div className="full-bg-img flex-center mask rgba-black-slight white-text">
-                          <ul className="col-md-5 col-sm-10 list-unstyled list-inline">
-                            <li>
-                              <h1 className="font-weight-bold text-uppercase">Welcome</h1>
-                            </li>
-                            <li>
-                            <p className="font-weight-light text-uppercase py-4">
-                              We are a family owned restaurant serving the Cherry Creek area since 2006,
-
-                              offering the classic Asian Fusion dishes you know and love, plus a few specials of our own.
-
-                              We pride ourselves on fresh food, great flavor, and affordable prices—and free delivery within a 3-miles radius!
-                            </p>
-                            </li>
-                            <li className="list-inline-item">
-                              <a target="_blank" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-unique btn-lg btn-rounded mr-0 waves-effect waves-light">
-                              <i className="fa fa-cutlery prefix white-text"></i> Order</a>
-                            </li>
-                          </ul>
-                        </div>
+            <div className="full-bg-img flex-center mask rgba-black-slight white-text">
+              <ul className="col-md-5 col-sm-10 list-unstyled list-inline">
+                <li>
+                  <h1 className="font-weight-bold text-uppercase headline">Welcome</h1>
+                </li>
+                <li>
+                  <p className="font-weight-light text-uppercase py-4 about-us">
+                    We are a family owned restaurant serving the Cherry Creek area since 2006, offering the classic Asian Fusion dishes you know and love, plus a few specials of our own. We pride ourselves on fresh food, great flavor, and affordable prices—and free delivery within a 3-miles radius!
+                  </p>
+                </li>
+                <li className="list-inline-item">
+                  <a target="_blank" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-unique btn-lg btn-rounded mr-0 waves-effect waves-light">
+                    <i className="fa fa-cutlery prefix white-text"></i>
+                    Order</a>
+                </li>
+              </ul>
+            </div>
 
           </View>
 
@@ -124,28 +112,23 @@ class CarouselPage extends Component {
               }}></div>
             <Mask overlay="black-light"></Mask>
 
-
-                        <div className="full-bg-img flex-center mask rgba-black-slight white-text">
-                          <ul className="col-md-5 col-sm-10 list-unstyled list-inline">
-                            <li>
-                              <h1 className="font-weight-bold text-uppercase">Welcome</h1>
-                            </li>
-                            <li>
-                            <p className="font-weight-light text-uppercase py-4">
-                              We are a family owned restaurant serving the Cherry Creek area since 2006,
-
-                              offering the classic Asian Fusion dishes you know and love, plus a few specials of our own.
-
-                              We pride ourselves on fresh food, great flavor, and affordable prices—and free delivery within a 3-miles radius!
-                            </p>
-                            </li>
-                            <li className="list-inline-item">
-                              <a target="_blank" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-unique btn-lg btn-rounded mr-0 waves-effect waves-light">
-                              <i className="fa fa-cutlery prefix white-text"></i> Order</a>
-                            </li>
-                          </ul>
-                        </div>
-
+            <div className="full-bg-img flex-center mask rgba-black-slight white-text">
+              <ul className="col-md-5 col-sm-10 list-unstyled list-inline">
+                <li>
+                  <h1 className="font-weight-bold text-uppercase headline">Welcome</h1>
+                </li>
+                <li>
+                  <p className="font-weight-light text-uppercase py-4 about-us">
+                    We are a family owned restaurant serving the Cherry Creek area since 2006, offering the classic Asian Fusion dishes you know and love, plus a few specials of our own. We pride ourselves on fresh food, great flavor, and affordable prices—and free delivery within a 3-miles radius!
+                  </p>
+                </li>
+                <li className="list-inline-item">
+                  <a target="_blank" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-unique btn-lg btn-rounded mr-0 waves-effect waves-light">
+                    <i className="fa fa-cutlery prefix white-text"></i>
+                    Order</a>
+                </li>
+              </ul>
+            </div>
 
           </View>
 

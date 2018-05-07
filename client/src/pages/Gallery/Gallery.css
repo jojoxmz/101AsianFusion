@@ -1,0 +1,13 @@
+#gallery-page{
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.gallery-images{
+  margin-bottom: 30px;
+}
+
+CardImage{
+  height: 200px;
+}

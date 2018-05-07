@@ -1,15 +1,12 @@
 import React, {Component} from "react";
-import SecondaryJumbotron from "../../components/SecondaryJumbotron";
-import Container from "../../components/Container";
-import Googlemap from "../../components/Googlemap";
-import Row from "../../components/Row";
-import Col from "../../components/Col";
 import "./Contact.css";
+
 
 class Contact extends Component {
 
   render() {
-    return (<div id="contact-page">
+    return (
+      <div id="contact-page" className="animated fadeInUp">
       <div className="row">
 
         <div className="col-md-6 col-sm-12">
@@ -65,7 +62,7 @@ class Contact extends Component {
             </div>
           </form>
 
-          <p>*required </p>
+          <h6>*required </h6>
         </div>
 
       </div>

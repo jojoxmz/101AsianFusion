@@ -8,12 +8,12 @@ export default class Manager extends Component {
 
       <div id="manager-page">
         <div className="row justify-content-center">
-          <div className="card col-md-6 col-sm-10">
+          <div className="card col-md-6 col-sm-3">
 
             <div className="card-body">
 
               <form>
-                <p className="h4 text-center py-4">Sign In</p>
+                <h2 className="h2 text-center py-4">Sign In</h2>
                 <div className="md-form">
                   <i className="fa fa-envelope prefix grey-text"></i>
                   <input type="email" id="materialFormCardEmailEx" className="form-control"/>
