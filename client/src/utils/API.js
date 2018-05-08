@@ -2,7 +2,10 @@ import axios from "axios";
 
 export default {
   // Gets all menus
-  getMenus: function() {
-    return axios.get("/menus");
-  }
+  getMenu: function() {
+    return axios.get("/api/menus");
+  },
+  getCategory: type => axios.get('/api/menus/' + type)
 };
+
+// API.getCategory("chicken"); //do this in the react client side

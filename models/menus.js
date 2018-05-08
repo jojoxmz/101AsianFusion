@@ -1,8 +1,10 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const MenusItem = new Schema({
-    name: String,
+const MenuModel = new Schema({
+    name: String, //dish name: lomein
+    category: String, //lunch, dinner
+    type: String, //beef, ck, soup, salad
     ingredients: String,
     lunchPrice: Number,
     dinnerPrice: Number,
@@ -12,16 +14,7 @@ const MenusItem = new Schema({
     glutenFree: Boolean
 });
 
-const Menus = new Schema({
-    // main level category (appetizers, dinner, etc)
-    category: {
-        name: String,
-        // sub category (chicken, beef, soups, etc)
-        subCategory: { subName: String, menusItems: [MenusItem] },
-        menusItems: [MenusItem]
-    }
-});
 
-const MenusModel = mongoose.model("MenusModel", Menus);
+const Menu = mongoose.model("Menu", MenuModel);
 
-module.exports = MenusModel;
+module.exports = Menu;

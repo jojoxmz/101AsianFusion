@@ -44,7 +44,7 @@ class CarouselPage extends Component {
   }
 
   render() {
-    const {activeItem} = this.state;
+    // const {activeItem} = this.state;
     return (<Carousel activeItem={this.state.activeItem} next={this.next} className="z-depth-1">
       <CarouselInner>
         <CarouselItem itemId="1">
@@ -67,7 +67,7 @@ class CarouselPage extends Component {
                   </p>
                 </li>
                 <li className="list-inline-item">
-                  <a target="_blank" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-unique btn-lg btn-rounded mr-0 waves-effect waves-light">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-dark-green btn-lg btn-rounded mr-0 waves-effect waves-light">
                     <i className="fa fa-cutlery prefix white-text"></i>
                     Order</a>
                 </li>
@@ -95,7 +95,7 @@ class CarouselPage extends Component {
                   </p>
                 </li>
                 <li className="list-inline-item">
-                  <a target="_blank" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-unique btn-lg btn-rounded mr-0 waves-effect waves-light">
+                  <a target="_blank"  rel="noopener noreferrer" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-dark-green btn-lg btn-rounded mr-0 waves-effect waves-light">
                     <i className="fa fa-cutlery prefix white-text"></i>
                     Order</a>
                 </li>
@@ -123,7 +123,7 @@ class CarouselPage extends Component {
                   </p>
                 </li>
                 <li className="list-inline-item">
-                  <a target="_blank" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-unique btn-lg btn-rounded mr-0 waves-effect waves-light">
+                  <a target="_blank"  rel="noopener noreferrer" href="https://www.grubhub.com/restaurant/101-asian-fusion-101-madison-st-denver/301394" className="btn btn-dark-green btn-lg btn-rounded mr-0 waves-effect waves-light">
                     <i className="fa fa-cutlery prefix white-text"></i>
                     Order</a>
                 </li>

@@ -4,13 +4,13 @@
 
 #top-nav a,
 #top-nav a:hover {
-  color: white;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+  color: rgba(211,211,211);
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, .5);
   transition: color .35s;
 }
 
 #top-nav a:hover {
-  color: grey;
+  color: black;
 }
 
 
@@ -30,5 +30,8 @@
 @media (max-width: 990px) {
   .navbar{
     background-color: black;
+  }
+  #top-nav a:hover {
+    color: white;
   }
 }

@@ -1,3 +1,3 @@
 module.exports = {
-  MenusModel: require("./menus")
+  Menu: require("./menus")
 };
