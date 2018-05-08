@@ -30,7 +30,9 @@ class Contact extends Component {
 
     window.emailjs.send(service_id,template_id,form
     )
-    console.log("working");
+    console.log("Email Sent!");
+    alert("Thank you for contacting us! We will get back to you shortly!");
+
     this.setState({name: "", number: "", email: "", subject: "", message: ""});
   };
 

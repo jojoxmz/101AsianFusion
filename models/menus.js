@@ -11,6 +11,7 @@ const MenuModel = new Schema({
     smallPrice: Number,
     largePrice: Number,
     onePrice: Number,
+    spicy: Boolean,
     glutenFree: Boolean
 });
 
