@@ -5,6 +5,7 @@
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "axios": "^0.16.2",
+    "classnames": "^2.2.5",
     "mailgun-js": "^0.18.0",
     "mdbootstrap": "^4.5.1",
     "mdbreact": "^4.3.0",
