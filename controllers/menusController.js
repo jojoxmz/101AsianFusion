@@ -1,15 +1,22 @@
 const db = require("../models");
 
-// Defining methods for the booksController
 module.exports = {
   findAll: (req, res) => {
+    console.log("All controller working");
     db.Menu
       .find({})
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(500).json(err));
   },
+  findType: (req, res) => {
+    console.log("Type Contoller working");
+    db.Menu.find({ type: req.params.type })
+    .then(dbModel => res.json(dbModel))
+    .catch(err => res.status(500).json(err));
+  },
   findCategory: (req, res) => {
-    db.Menu.find({ category: req.params.type })
+    console.log("Category controller working");
+    db.Menu.find({ category: req.params.category })
     .then(dbModel => res.json(dbModel))
     .catch(err => res.status(500).json(err));
   }

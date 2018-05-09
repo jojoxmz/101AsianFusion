@@ -40,7 +40,6 @@
 // };
 
 
-import API from '../../utils/API';
 import React, {Component} from "react";
 import Menupage from "../../components/Menupage";
 

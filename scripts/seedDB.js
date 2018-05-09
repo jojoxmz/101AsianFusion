@@ -92,7 +92,7 @@ const menuSeed = [
     spicy: true
   }, {
     name: "Miso Soup",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Soups",
     ingredients: "A Japanese favorite w/tofu, miso and seaweed.",
     smallPrice: 1.95,
@@ -100,7 +100,7 @@ const menuSeed = [
     glutenFree: true
   }, {
     name: "Egg Drop Soup",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Soups",
     ingredients: "Wispy beaten eggs in boiled clear broth.",
     smallPrice: 1.95,
@@ -108,7 +108,7 @@ const menuSeed = [
     glutenFree: true
   }, {
     name: "Wonton Soup",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Soups",
     ingredients: "Homemade pork & vegetable dumplings in a clear broth.",
     smallPrice: 1.95,
@@ -116,7 +116,7 @@ const menuSeed = [
     glutenFree: false
   }, {
     name: "Sandon Hot & Sour Soup",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Soups",
     ingredients: "Traditional Chinese hot and sour soup.",
     smallPrice: 1.95,
@@ -125,7 +125,7 @@ const menuSeed = [
     glutenFree: false
   }, {
     name: "Chicken Corn Egg Drop Soup",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Soups",
     ingredients: "Wispy beaten eggs, chicken, corn, peas, and carrots in boiled clear broth.",
     smallPrice: 2.95,
@@ -133,7 +133,7 @@ const menuSeed = [
     glutenFree: true
   }, {
     name: "Chicken Coconut Soup (Tom Kha Gai)",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Soups",
     ingredients: "Spicy Thai soup with all the essential spices.",
     smallPrice: 2.95,
@@ -142,7 +142,7 @@ const menuSeed = [
     glutenFree: true
   }, {
     name: "Thai Hot & Sour Soup",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Soups",
     ingredients: "Shrimp, lemongrass, you name it, it's there in this authentic Thai Tom Yum Goong soup.",
     smallPrice: 2.95,
@@ -151,7 +151,7 @@ const menuSeed = [
     glutenFree: true
   }, {
     name: "House Salad",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Salads",
     ingredients: "Spring mix with our special ginger dressing on the side.",
     onePrice: 3.50,
@@ -159,26 +159,26 @@ const menuSeed = [
 
   }, {
     name: "Avocado & Crab Salad",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Salads",
     ingredients: "Spring salad mixed w/crab meat & avocado in a spicy mayo sauce.",
     onePrice: 5.95,
     spicy: true
   }, {
     name: "Seaweed Salad",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Salads",
     ingredients: "This is a must try if you're adventurous.",
     onePrice: 4.95
   }, {
     name: "Beef or Chicken Salad",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Salads",
     ingredients: "Grilled beef or chicken strips w/fresh mixed greens in a chili-lime dressing.",
     onePrice: 5.95
   }, {
     name: "Tuna Tataki Salad",
-    category: "Soups & Salads",
+    category: "soupsandsalads",
     type: "Salads",
     ingredients: "Spring salad mixed w/Tataki tuna in house sauce.",
     onePrice: 8.95
@@ -351,7 +351,7 @@ const menuSeed = [
     glutenFree: true
   }, {
     name: "Sesame Shrimp",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Crispy fried shrimp or scallops covered w/sweet spicy sauce.",
     lunchPrice: 8.50,
@@ -359,7 +359,7 @@ const menuSeed = [
     spicy: true
   }, {
     name: "Shrimp Tempura",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "7 jumbo shrimp dipped in light & crispy batter then fried.",
     lunchPrice: 8.50,
@@ -367,7 +367,7 @@ const menuSeed = [
   },
   {
     name: "Shrimp w/Garlic Sauce",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Wok-tossed shrimp & vegetables in a spicy garlic sauce",
     lunchPrice: 8.50,
@@ -375,7 +375,7 @@ const menuSeed = [
     spicy: true,
   }, {
     name: "Shrimp Broccoli",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Shrimp stir fried with broccoli and carrots in a tasty white sauce.",
     lunchPrice: 8.50,
@@ -383,14 +383,14 @@ const menuSeed = [
     glutenFree: true
   },{
     name: "Shrimp with Green Bean",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Shrimp stir fried with green beans in a tasty brown sauce.",
     lunchPrice: 8.50,
     dinnerPrice: 12.50
   },{
     name: "Basil Shrimp",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "This is truly one the favorite hot shrimp dishes.",
     lunchPrice: 8.50,
@@ -398,7 +398,7 @@ const menuSeed = [
     spicy: true
   },{
     name: "Hot & Spicy Shrimp",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Shrimp stir fried in hot spicy tomato sauce.",
     lunchPrice: 8.50,
@@ -406,7 +406,7 @@ const menuSeed = [
     spicy: true
   },{
     name: "Kung Pao Shrimp",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Hot shrimp with seared chilies, peanuts & vegetables.",
     lunchPrice: 8.50,
@@ -414,7 +414,7 @@ const menuSeed = [
     spicy: true
   },{
     name: "Hot Fish",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Crispy slices of our fresh daily selection in a tomato chili sauce with vegetables.",
     lunchPrice: 8.50,
@@ -422,14 +422,14 @@ const menuSeed = [
     spicy: true
   },{
     name: "Fish Fillet in Blk Bean Sauce",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Fish fillet w/just the right amount of black beans to make this Chinese dish a must try.",
     lunchPrice: 8.50,
     dinnerPrice: 12.50
   },{
     name: "Hot & Spicy Scallops",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Scallops stir fried in hot spicy tomato sauce.",
     lunchPrice: 9.50,
@@ -437,7 +437,7 @@ const menuSeed = [
     spicy: true
   },{
     name: "Sesame Scallops",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Scallops stir fried in hot spicy tomato sauce.",
     lunchPrice: 9.50,
@@ -445,7 +445,7 @@ const menuSeed = [
     spicy: true
   },{
     name: "Cantonese Scallops",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Scallops in lobster sauce.",
     lunchPrice: 9.50,
@@ -453,7 +453,7 @@ const menuSeed = [
     glutenFree: true
   },{
     name: "Kung Pao Scallops",
-    category: "Seafood",
+    category: "Main Dishes",
     type: "Seafood",
     ingredients: "Scallops with seared chilies, peanuts & vegetables.",
     lunchPrice: 9.50,

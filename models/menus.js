@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const MenuModel = new Schema({
     name: String, //dish name: lomein
-    category: String, //lunch, dinner
+    category: String, //Main dishes
     type: String, //beef, ck, soup, salad
     ingredients: String,
     lunchPrice: Number,
