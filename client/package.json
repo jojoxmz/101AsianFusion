@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://peaceful-caverns-45437.herokuapp.com/",
+  "homepage" : "https://peaceful-caverns-45437.herokuapp.com/",
   "dependencies": {
     "axios": "^0.16.2",
     "classnames": "^2.2.5",
