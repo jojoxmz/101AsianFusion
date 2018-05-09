@@ -4,7 +4,7 @@
 
 #top-nav a,
 #top-nav a:hover {
-  color: rgba(211,211,211);
+  color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, .5);
   transition: color .35s;
 }
@@ -28,7 +28,7 @@
 }
 
 @media (max-width: 990px) {
-  .navbar{
+  .navbar {
     background-color: black;
   }
   #top-nav a:hover {

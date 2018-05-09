@@ -30,8 +30,7 @@ class CarouselPage extends Component {
 
   prev() {
     let prevItem = this.state.activeItem - 1;
-    if (prevItem < 1) {
-      this.setState({activeItem: this.state.maxLength});
+    if (prevItem < 1) {this.setState({activeItem: this.state.maxLength});
     } else {
       this.setState({activeItem: prevItem});
     }

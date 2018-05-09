@@ -42,16 +42,16 @@ class Menupage extends Component {
         <div className="col-md-12" id="inside-nav">
           <ul className="nav justify-content-center">
             <li className="nav-item">
-              <button id="starts" onClick={() => this.updateMenuType("Starts")}>Starts</button>
+              <p id="starts" className="category-nav" onClick={() => this.updateMenuType("Starts")}>STARTS</p>
             </li>
             <li className="nav-item">
-              <button id="soupsAndSalads" onClick={() => this.updateMenuCategory("soupsandsalads")}>Salads and Soups</button>
+              <p id="soupsAndSalads" className="category-nav" onClick={() => this.updateMenuCategory("soupsandsalads")}>SALADS & SOUPS</p>
             </li>
             <li className="nav-item">
-              <button id="lunch" onClick={() => this.updateMenuCategory("Main Dishes", "lunch")}>Lunch</button>
+              <p id="lunch" className="category-nav" onClick={() => this.updateMenuCategory("Main Dishes", "lunch")}>LUNCH</p>
             </li>
             <li className="nav-item">
-              <button id="dinner" onClick={() => this.updateMenuCategory("Main Dishes", "dinner")}>Dinner</button>
+              <p id="dinner" className="category-nav" onClick={() => this.updateMenuCategory("Main Dishes", "dinner")}>DINNER</p>
             </li>
           </ul>
         </div>
@@ -61,16 +61,16 @@ class Menupage extends Component {
         <div className="col-md-12">
           <ul className="nav subCategories justify-content-center">
             <li className="nav-item">
-              <p id="Chicken" onClick={() => this.updateMenuSpecific("Main Dishes", "Chicken")}>Chicken</p>
+              <p id="Chicken" className="sub-nav focus" onClick={() => this.updateMenuSpecific("Main Dishes", "Chicken")}>#chicken</p>
             </li>
             <li className="nav-item">
-              <p id="Beef" onClick={() => this.updateMenuSpecific("Main Dishes", "Beef")}>Beef</p>
+              <p id="Beef" className="sub-nav focus" onClick={() => this.updateMenuSpecific("Main Dishes", "Beef")}>#beef</p>
             </li>
             <li className="nav-item">
-              <p id="Seafood" onClick={() => this.updateMenuSpecific("Main Dishes", "Seafood")}>Seafood</p>
+              <p id="Seafood" className="sub-nav focus" onClick={() => this.updateMenuSpecific("Main Dishes", "Seafood")}>#seafood</p>
             </li>
             <li className="nav-item">
-              <p id="Vegetables" onClick={() => this.updateMenuSpecific("Main Dishes", "Vegetables")}>Vegetables</p>
+              <p id="Vegetables" className="sub-nav focus" onClick={() => this.updateMenuSpecific("Main Dishes", "Vegetables")}>#vegetables</p>
             </li>
           </ul>
         </div>
@@ -78,7 +78,7 @@ class Menupage extends Component {
 
       {
         this.state.menu.map(item => (<div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12 ">
             <h5 className="center" id="item-name">
               {
                 item.name

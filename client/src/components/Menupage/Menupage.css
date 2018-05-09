@@ -1,29 +1,31 @@
-#inside-nav{
-  margin-top: 4rem;
+#inside-nav {
+  margin-top: 6rem;
 }
 
-#menu-page{
+#menu-page {
   overflow: hidden;
+  padding-bottom: 4rem;
+  background-image: linear-gradient(to top, #e2eaf6, #bed6e3, #99c4ca, #7db0a8, #6f9b80);
 }
 
-.center{
+.center {
   text-align: center;
   margin-bottom: 5px;
 }
 
-#item-name{
+#item-name {
   margin-top: 20px;
   font-weight: bolder;
   font-size: 23px;
 }
 
-#gluten-free{
+#gluten-free {
   color: green;
   font-size: 12px;
 }
 
-#spicy{
-  color: red;
+#spicy {
+  color: brown;
   font-size: 12px;
 }
 
@@ -31,17 +33,65 @@
   display: none;
 }
 
-.lunch .subCategories,
-.dinner .subCategories {
+.lunch .subCategories, .dinner .subCategories {
   display: flex;
 }
 
-.lunch .dinnerPrice,
-.dinner .lunchPrice {
+.lunch .dinnerPrice, .dinner .lunchPrice {
   display: none;
 }
 
-.lunch .lunchPrice,
-.dinner .dinnerPrice {
+.lunch .lunchPrice, .dinner .dinnerPrice {
   display: block;
+}
+
+.category-nav {
+  margin: 0px 10px 0px 0px;
+  padding: 10px 10px 0px 10px;
+  font-size: 23px;
+  border-radius: 50px;
+  color: white;
+  cursor:pointer;
+}
+
+.category-nav:hover {
+  font-weight: 500;
+}
+
+.sub-nav {
+  padding: 0px 20px 0px 20px;
+  cursor:pointer;
+  font-size: 18px;
+}
+
+.sub-nav:hover {
+  font-weight: 400;
+  color: white;
+}
+
+p.selected {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .category-nav {
+    margin: 0px;
+    padding: 10px 20px 0px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: white;
+    cursor:pointer;
+  }
+  .category-nav:hover {
+    font-weight: 700;
+  }
+  .sub-nav {
+    padding: 0px 5px 0px 5px;
+    cursor:pointer;
+    font-size: 18px;
+  }
+  .sub-nav:hover {
+    font-weight: 400;
+    color: white;
+  }
 }

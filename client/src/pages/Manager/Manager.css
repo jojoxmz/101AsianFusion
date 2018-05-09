@@ -1,7 +1,19 @@
 #manager-page{
-  margin-top: 80px;
-  margin-bottom: 25px;
+  background-image: linear-gradient(to top, #e2eaf6, #bed6e3, #99c4ca, #7db0a8, #6f9b80);
+  padding-top: 3.5rem;
   height: 100vh;
-  padding-top: 8rem;
   overflow: hidden;
+}
+
+.manager-body{
+  background-color: white;
+  padding-top: 12rem;
+  padding-bottom: 14rem;
+}
+
+@media (max-width: 768px) {
+  .manager-body{
+    padding-top: 8rem;
+    padding-bottom: 14rem;
+  }
 }

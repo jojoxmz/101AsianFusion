@@ -1,7 +1,14 @@
 #gallery-page{
-  margin-top: 7rem;
-  margin-bottom: 1rem;
+  padding-top: 3.5rem;
   overflow: hidden;
+  background-image: linear-gradient(to top, #e2eaf6, #bed6e3, #99c4ca, #7db0a8, #6f9b80);
+  background-size: 200;
+}
+
+.gallery-body{
+  padding-top: 2rem;
+  background: white;
+  padding-bottom: 1rem;
 }
 
 .gallery-images{

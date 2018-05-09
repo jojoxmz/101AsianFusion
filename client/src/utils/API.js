@@ -18,5 +18,3 @@ export default {
     return axios.get("/api/menus/category/" + category);
   }
 };
-
-// API.getCategory("chicken"); //do this in the react client side
