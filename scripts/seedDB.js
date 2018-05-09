@@ -510,7 +510,7 @@ const menuSeed = [
     ingredients: "Tofu w/fresh mixed vegetables and Thai basil.",
     lunchPrice: 6.95,
     dinnerPrice: 8.95,
-  },
+  }
 
 ];
 

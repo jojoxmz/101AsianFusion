@@ -17,6 +17,7 @@ module.exports = {
   findCategory: (req, res) => {
     console.log("Category controller working");
     db.Menu.find({ category: req.params.category })
+    .sort([['type', 1]])
     .then(dbModel => res.json(dbModel))
     .catch(err => res.status(500).json(err));
   }
